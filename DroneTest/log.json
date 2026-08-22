@@ -1,0 +1,507 @@
+{
+    "odmVersion": "3.6.2",
+    "memory": {
+        "total": 1852,
+        "available": 1142
+    },
+    "cpus": 4,
+    "images": 210,
+    "options": {
+        "3d_tiles": false,
+        "align": null,
+        "auto_boundary": false,
+        "auto_boundary_distance": 0,
+        "bg_removal": false,
+        "boundary": {},
+        "build_overviews": false,
+        "camera_lens": "auto",
+        "cameras": {},
+        "cog": false,
+        "copy_to": null,
+        "crop": 3,
+        "dem_decimation": 1,
+        "dem_euclidean_map": false,
+        "dem_gapfill_steps": 3,
+        "dem_resolution": 5,
+        "dsm": false,
+        "dtm": false,
+        "end_with": "odm_postprocess",
+        "fast_orthophoto": true,
+        "feature_quality": "low",
+        "feature_type": "dspsift",
+        "force_gps": false,
+        "gcp": null,
+        "geo": null,
+        "gltf": false,
+        "gps_accuracy": 3,
+        "gps_z_offset": 0,
+        "ignore_gsd": false,
+        "matcher_neighbors": 0,
+        "matcher_order": 0,
+        "matcher_type": "flann",
+        "max_concurrency": 4,
+        "merge": "all",
+        "merge_skip_blending": false,
+        "mesh_octree_depth": 11,
+        "mesh_size": 200000,
+        "min_num_features": 10000,
+        "name": "test",
+        "no_gpu": false,
+        "optimize_disk_space": false,
+        "orthophoto_compression": "DEFLATE",
+        "orthophoto_cutline": false,
+        "orthophoto_kmz": false,
+        "orthophoto_no_tiled": false,
+        "orthophoto_png": false,
+        "orthophoto_resolution": 5,
+        "pc_classify": false,
+        "pc_copc": false,
+        "pc_csv": false,
+        "pc_ept": false,
+        "pc_filter": 5,
+        "pc_las": false,
+        "pc_quality": "medium",
+        "pc_rectify": false,
+        "pc_sample": 0,
+        "pc_skip_geometric": false,
+        "primary_band": "auto",
+        "project_path": "/datasets/test",
+        "radiometric_calibration": "none",
+        "rerun": null,
+        "rerun_all": false,
+        "rerun_from": null,
+        "rolling_shutter": false,
+        "rolling_shutter_readout": 0,
+        "sfm_algorithm": "incremental",
+        "sfm_no_partial": false,
+        "skip_3dmodel": true,
+        "skip_band_alignment": false,
+        "skip_orthophoto": false,
+        "skip_report": false,
+        "sky_removal": false,
+        "sm_cluster": null,
+        "sm_no_align": false,
+        "smrf_scalar": 1.25,
+        "smrf_slope": 0.15,
+        "smrf_threshold": 0.5,
+        "smrf_window": 18.0,
+        "split": 999999,
+        "split_image_groups": null,
+        "split_overlap": 150,
+        "texturing_keep_unseen_faces": false,
+        "texturing_single_material": false,
+        "texturing_skip_global_seam_leveling": false,
+        "tiles": false,
+        "use_3dmesh": false,
+        "use_exif": false,
+        "use_fixed_camera_params": false,
+        "use_hybrid_bundle_adjustment": false,
+        "video_limit": 500,
+        "video_resolution": 4000
+    },
+    "startTime": "2026-08-21T13:41:51.126854",
+    "stages": [
+        {
+            "name": "dataset",
+            "startTime": "2026-08-21T13:42:10.936027",
+            "messages": [
+                {
+                    "message": "Running dataset stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Loading dataset from: /datasets/test/images",
+                    "type": "info"
+                },
+                {
+                    "message": "Loading images database: /datasets/test/images.json",
+                    "type": "info"
+                },
+                {
+                    "message": "Found 210 usable images",
+                    "type": "info"
+                },
+                {
+                    "message": "Band 1: Red",
+                    "type": "info"
+                },
+                {
+                    "message": "Band 2: Green",
+                    "type": "info"
+                },
+                {
+                    "message": "Band 3: Blue",
+                    "type": "info"
+                },
+                {
+                    "message": "Band 4: NIR",
+                    "type": "info"
+                },
+                {
+                    "message": "Band 5: Rededge",
+                    "type": "info"
+                },
+                {
+                    "message": "Coordinates file already exist: /datasets/test/odm_georeferencing/coords.txt",
+                    "type": "info"
+                },
+                {
+                    "message": "Model geo file already exist: /datasets/test/odm_georeferencing/odm_georeferencing_model_geo.txt",
+                    "type": "info"
+                },
+                {
+                    "message": "Finished dataset stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "split",
+            "startTime": "2026-08-21T13:42:11.195951",
+            "messages": [
+                {
+                    "message": "Running split stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Normal dataset, will process all at once.",
+                    "type": "info"
+                },
+                {
+                    "message": "Finished split stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "merge",
+            "startTime": "2026-08-21T13:42:11.208168",
+            "messages": [
+                {
+                    "message": "Running merge stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Normal dataset, nothing to merge.",
+                    "type": "info"
+                },
+                {
+                    "message": "Finished merge stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "opensfm",
+            "startTime": "2026-08-21T13:42:11.230772",
+            "messages": [
+                {
+                    "message": "Running opensfm stage",
+                    "type": "info"
+                },
+                {
+                    "message": "/datasets/test/opensfm/image_list.txt already exists, not rerunning OpenSfM setup",
+                    "type": "warning"
+                },
+                {
+                    "message": "/datasets/test/opensfm/exif already exists, not rerunning photo to metadata",
+                    "type": "warning"
+                },
+                {
+                    "message": "Detect features already done: /datasets/test/opensfm/features exists",
+                    "type": "warning"
+                },
+                {
+                    "message": "Match features already done: /datasets/test/opensfm/matches exists",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found a valid OpenSfM tracks file in: /datasets/test/opensfm/tracks.csv",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found a valid OpenSfM reconstruction file in: /datasets/test/opensfm/reconstruction.json",
+                    "type": "warning"
+                },
+                {
+                    "message": "Already extracted cameras",
+                    "type": "info"
+                },
+                {
+                    "message": "Export reconstruction stats",
+                    "type": "info"
+                },
+                {
+                    "message": "Found existing reconstruction stats /datasets/test/opensfm/stats/stats.json",
+                    "type": "warning"
+                },
+                {
+                    "message": "Will skip exporting /datasets/test/opensfm/reconstruction.geocoords.json",
+                    "type": "warning"
+                },
+                {
+                    "message": "Undistorting /datasets/test/opensfm ...",
+                    "type": "info"
+                },
+                {
+                    "message": "Already undistorted (nominal)",
+                    "type": "warning"
+                },
+                {
+                    "message": "Undistorting /datasets/test/opensfm ...",
+                    "type": "info"
+                },
+                {
+                    "message": "Already undistorted (primary)",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found a valid OpenSfM NVM reconstruction file in: /datasets/test/opensfm/undistorted/reconstruction.nvm",
+                    "type": "warning"
+                },
+                {
+                    "message": "Multiple bands found",
+                    "type": "info"
+                },
+                {
+                    "message": "Found existing NVM file /datasets/test/opensfm/undistorted/reconstruction_red.nvm",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found existing NVM file /datasets/test/opensfm/undistorted/reconstruction_green.nvm",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found existing NVM file /datasets/test/opensfm/undistorted/reconstruction_blue.nvm",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found existing NVM file /datasets/test/opensfm/undistorted/reconstruction_nir.nvm",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found existing NVM file /datasets/test/opensfm/undistorted/reconstruction_rededge.nvm",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found a valid PLY reconstruction in /datasets/test/opensfm/reconstruction.ply",
+                    "type": "warning"
+                },
+                {
+                    "message": "Finished opensfm stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "odm_filterpoints",
+            "startTime": "2026-08-21T13:42:11.674422",
+            "messages": [
+                {
+                    "message": "Running odm_filterpoints stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Found a valid point cloud file in: /datasets/test/odm_filterpoints/point_cloud.ply",
+                    "type": "warning"
+                },
+                {
+                    "message": "Finished odm_filterpoints stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "odm_meshing",
+            "startTime": "2026-08-21T13:42:11.697482",
+            "messages": [
+                {
+                    "message": "Running odm_meshing stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Found a valid ODM 2.5D Mesh file in: /datasets/test/odm_meshing/odm_25dmesh.ply",
+                    "type": "warning"
+                },
+                {
+                    "message": "Finished odm_meshing stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "mvs_texturing",
+            "startTime": "2026-08-21T13:42:11.733034",
+            "messages": [
+                {
+                    "message": "Running mvs_texturing stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Found a valid ODM Texture file in: /datasets/test/odm_texturing_25d/odm_textured_model_geo.obj",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found a valid ODM Texture file in: /datasets/test/odm_texturing_25d/red/odm_textured_model_geo.obj",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found a valid ODM Texture file in: /datasets/test/odm_texturing_25d/blue/odm_textured_model_geo.obj",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found a valid ODM Texture file in: /datasets/test/odm_texturing_25d/nir/odm_textured_model_geo.obj",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found a valid ODM Texture file in: /datasets/test/odm_texturing_25d/rededge/odm_textured_model_geo.obj",
+                    "type": "warning"
+                },
+                {
+                    "message": "Finished mvs_texturing stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "odm_georeferencing",
+            "startTime": "2026-08-21T13:42:11.780832",
+            "messages": [
+                {
+                    "message": "Running odm_georeferencing stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Found a valid georeferenced model in: /datasets/test/odm_georeferencing/odm_georeferenced_model.laz",
+                    "type": "warning"
+                },
+                {
+                    "message": "Finished odm_georeferencing stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "odm_dem",
+            "startTime": "2026-08-21T13:42:11.801082",
+            "messages": [
+                {
+                    "message": "Running odm_dem stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Maximum resolution set to 1.0 * (GSD - 10.0%) (5.34 cm / pixel, requested resolution was 5.00 cm / pixel)",
+                    "type": "warning"
+                },
+                {
+                    "message": "Create DSM: False",
+                    "type": "info"
+                },
+                {
+                    "message": "Create DTM: False",
+                    "type": "info"
+                },
+                {
+                    "message": "DEM input file /datasets/test/odm_georeferencing/odm_georeferenced_model.laz found: True",
+                    "type": "info"
+                },
+                {
+                    "message": "DEM will not be generated",
+                    "type": "warning"
+                },
+                {
+                    "message": "Finished odm_dem stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "odm_orthophoto",
+            "startTime": "2026-08-21T13:42:11.842499",
+            "messages": [
+                {
+                    "message": "Running odm_orthophoto stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Found a valid orthophoto in: /datasets/test/odm_orthophoto/odm_orthophoto.tif",
+                    "type": "warning"
+                },
+                {
+                    "message": "Finished odm_orthophoto stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "odm_report",
+            "startTime": "2026-08-21T13:42:11.868257",
+            "messages": [
+                {
+                    "message": "Running odm_report stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Exporting shots.geojson",
+                    "type": "info"
+                },
+                {
+                    "message": "Found a valid shots file in: /datasets/test/odm_report/shots.geojson",
+                    "type": "warning"
+                },
+                {
+                    "message": "Found a valid camera mappings file in: /datasets/test/odm_report/camera_mappings.npz",
+                    "type": "warning"
+                },
+                {
+                    "message": "Reading existing stats /datasets/test/odm_report/stats.json",
+                    "type": "warning"
+                },
+                {
+                    "message": "Cannot generate overlap diagram, point cloud stats missing",
+                    "type": "warning"
+                },
+                {
+                    "message": "Exporting report to /datasets/test/odm_report/report.pdf",
+                    "type": "info"
+                },
+                {
+                    "message": "Report /datasets/test/odm_report/report.pdf already exported",
+                    "type": "warning"
+                },
+                {
+                    "message": "Finished odm_report stage",
+                    "type": "info"
+                }
+            ]
+        },
+        {
+            "name": "odm_postprocess",
+            "startTime": "2026-08-21T13:42:12.004538",
+            "messages": [
+                {
+                    "message": "Running odm_postprocess stage",
+                    "type": "info"
+                },
+                {
+                    "message": "Post Processing",
+                    "type": "info"
+                },
+                {
+                    "message": "Finished odm_postprocess stage",
+                    "type": "info"
+                },
+                {
+                    "message": "No more stages to run",
+                    "type": "info"
+                }
+            ],
+            "endTime": "2026-08-21T13:42:12.041731",
+            "totalTime": 0.04
+        }
+    ],
+    "processes": [],
+    "success": true,
+    "endTime": "2026-08-21T13:42:12.041731",
+    "totalTime": 20.91
+}

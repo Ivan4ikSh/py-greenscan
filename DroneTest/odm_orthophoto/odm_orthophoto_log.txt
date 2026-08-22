@@ -1,0 +1,177 @@
+/code/SuperBuild/install/bin/odm_orthophoto_log.txt
+
+Arguments given
+-inputFiles
+/datasets/test/odm_texturing_25d/red/odm_textured_model_geo.obj,/datasets/test/odm_texturing_25d/odm_textured_model_geo.obj,/datasets/test/odm_texturing_25d/blue/odm_textured_model_geo.obj,/datasets/test/odm_texturing_25d/nir/odm_textured_model_geo.obj,/datasets/test/odm_texturing_25d/rededge/odm_textured_model_geo.obj
+-logFile
+/datasets/test/odm_orthophoto/odm_orthophoto_log.txt
+-outputFile
+/datasets/test/odm_orthophoto/odm_orthophoto.tif
+-resolution
+18.73437504062232
+-verbose
+-outputCornerFile
+/datasets/test/odm_orthophoto/odm_orthophoto_corners.txt
+-bands
+Red,Green,Blue,NIR,Rededge
+-utm_north_offset
+5647824.0
+-utm_east_offset
+530198.0
+-a_srs
++proj=utm +zone=34 +datum=WGS84 +units=m +no_defs +type=crs
+-co
+TILED=YES
+-co
+COMPRESS=DEFLATE
+-co
+PREDICTOR=2
+-co
+BIGTIFF=IF_SAFER
+-co
+BLOCKXSIZE=512
+-co
+BLOCKYSIZE=512
+-co
+NUM_THREADS=4
+--config
+GDAL_CACHEMAX
+411973632.0
+
+Log file path was set to: /datasets/test/odm_orthophoto/odm_orthophoto_log.txt
+Writing output to: /datasets/test/odm_orthophoto/odm_orthophoto.tif
+Resolution count was set to: 18.7344pixels/meter
+
+Reading mesh file... /datasets/test/odm_texturing_25d/red/odm_textured_model_geo.obj
+Found material0000
+Loading odm_textured_model_geo_material0000_map_Kd.tif
+Found material0001
+Loading odm_textured_model_geo_material0001_map_Kd.tif
+Mesh file read.
+
+Boundary points:
+Point 1: -70.095 -96.5369
+Point 2: -70.095 94.4564
+Point 3: 110.529 94.4564
+Point 4: 110.529 -96.5369
+
+Model bounds x : -70.095 -> 110.529
+Model bounds y : -96.5369 -> 94.4564
+Model area : 34497.9m2
+Model resolution, width x height : 3384x3579
+Translating and scaling mesh...
+Rendering the ortho photo...
+Texture channels: 1
+Texture depth: 16bit
+Rendering material0000 ... done
+Rendering material0001 ... done
+... model rendered
+Reading mesh file... /datasets/test/odm_texturing_25d/odm_textured_model_geo.obj
+Found material0000
+Loading odm_textured_model_geo_material0000_map_Kd.tif
+Found material0001
+Loading odm_textured_model_geo_material0001_map_Kd.tif
+Mesh file read.
+
+Boundary points:
+Point 1: -70.095 -96.5369
+Point 2: -70.095 94.4564
+Point 3: 110.529 94.4564
+Point 4: 110.529 -96.5369
+
+Model bounds x : -70.095 -> 110.529
+Model bounds y : -96.5369 -> 94.4564
+Model area : 34497.9m2
+Model resolution, width x height : 3384x3579
+Translating and scaling mesh...
+Rendering the ortho photo...
+Texture channels: 1
+Texture depth: 16bit
+Rendering material0000 ... done
+Rendering material0001 ... done
+... model rendered
+Reading mesh file... /datasets/test/odm_texturing_25d/blue/odm_textured_model_geo.obj
+Found material0000
+Loading odm_textured_model_geo_material0000_map_Kd.tif
+Found material0001
+Loading odm_textured_model_geo_material0001_map_Kd.tif
+Mesh file read.
+
+Boundary points:
+Point 1: -70.095 -96.5369
+Point 2: -70.095 94.4564
+Point 3: 110.529 94.4564
+Point 4: 110.529 -96.5369
+
+Model bounds x : -70.095 -> 110.529
+Model bounds y : -96.5369 -> 94.4564
+Model area : 34497.9m2
+Model resolution, width x height : 3384x3579
+Translating and scaling mesh...
+Rendering the ortho photo...
+Texture channels: 1
+Texture depth: 16bit
+Rendering material0000 ... done
+Rendering material0001 ... done
+... model rendered
+Reading mesh file... /datasets/test/odm_texturing_25d/nir/odm_textured_model_geo.obj
+Found material0000
+Loading odm_textured_model_geo_material0000_map_Kd.tif
+Found material0001
+Loading odm_textured_model_geo_material0001_map_Kd.tif
+Mesh file read.
+
+Boundary points:
+Point 1: -70.095 -96.5369
+Point 2: -70.095 94.4564
+Point 3: 110.529 94.4564
+Point 4: 110.529 -96.5369
+
+Model bounds x : -70.095 -> 110.529
+Model bounds y : -96.5369 -> 94.4564
+Model area : 34497.9m2
+Model resolution, width x height : 3384x3579
+Translating and scaling mesh...
+Rendering the ortho photo...
+Texture channels: 1
+Texture depth: 16bit
+Rendering material0000 ... done
+Rendering material0001 ... done
+... model rendered
+Reading mesh file... /datasets/test/odm_texturing_25d/rededge/odm_textured_model_geo.obj
+Found material0000
+Loading odm_textured_model_geo_material0000_map_Kd.tif
+Found material0001
+Loading odm_textured_model_geo_material0001_map_Kd.tif
+Mesh file read.
+
+Boundary points:
+Point 1: -70.095 -96.5369
+Point 2: -70.095 94.4564
+Point 3: 110.529 94.4564
+Point 4: 110.529 -96.5369
+
+Model bounds x : -70.095 -> 110.529
+Model bounds y : -96.5369 -> 94.4564
+Model area : 34497.9m2
+Model resolution, width x height : 3384x3579
+Translating and scaling mesh...
+Rendering the ortho photo...
+Texture channels: 1
+Texture depth: 16bit
+Rendering material0000 ... done
+Rendering material0001 ... done
+... model rendered
+
+
+Writing ortho photo to /datasets/test/odm_orthophoto/odm_orthophoto.tif
+Set GDAL_CACHEMAX to 411973632
+Set TILED=YES
+Set COMPRESS=DEFLATE
+Set PREDICTOR=2
+Set BIGTIFF=IF_SAFER
+Set BLOCKXSIZE=512
+Set BLOCKYSIZE=512
+Set NUM_THREADS=4
+Writing corner coordinates to /datasets/test/odm_orthophoto/odm_orthophoto_corners.txt
+Orthophoto generation done.

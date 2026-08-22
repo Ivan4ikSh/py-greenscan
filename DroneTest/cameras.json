@@ -1,0 +1,10 @@
+{
+    "micasense rededge-m 1280 960 perspective 1.1458": {
+        "projection_type": "perspective",
+        "width": 1280,
+        "height": 960,
+        "focal": 1.1461802337841678,
+        "k1": -0.0035921588281069743,
+        "k2": -0.00032087187567137203
+    }
+}

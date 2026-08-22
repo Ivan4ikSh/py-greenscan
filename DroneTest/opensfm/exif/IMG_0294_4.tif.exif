@@ -1,0 +1,17 @@
+{
+    "make": "MicaSense",
+    "model": "RedEdge-M",
+    "width": 1280,
+    "height": 960,
+    "projection_type": "perspective",
+    "focal_ratio": 1.1458333347656249,
+    "orientation": 1,
+    "capture_time": 1534939931.555435,
+    "gps": {
+        "latitude": 50.9817291,
+        "longitude": 21.4297083,
+        "altitude": 295.332,
+        "dop": 10.0
+    },
+    "camera": "v2 micasense rededge-m 1280 960 perspective 1.1458"
+}

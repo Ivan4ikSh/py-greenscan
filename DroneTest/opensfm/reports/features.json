@@ -1,0 +1,215 @@
+{
+    "wall_time": 10.319852310999977,
+    "image_reports": [
+        {
+            "image": "IMG_0180_2.tif",
+            "num_features": 190,
+            "wall_time": 0.9038549910000029
+        },
+        {
+            "image": "IMG_0181_2.tif",
+            "num_features": 197,
+            "wall_time": 0.5145128699999759
+        },
+        {
+            "image": "IMG_0182_2.tif",
+            "num_features": 199,
+            "wall_time": 0.473201940000024
+        },
+        {
+            "image": "IMG_0183_2.tif",
+            "num_features": 244,
+            "wall_time": 0.49886577500001295
+        },
+        {
+            "image": "IMG_0184_2.tif",
+            "num_features": 268,
+            "wall_time": 0.6387903689999916
+        },
+        {
+            "image": "IMG_0185_2.tif",
+            "num_features": 265,
+            "wall_time": 0.6721030319999954
+        },
+        {
+            "image": "IMG_0186_2.tif",
+            "num_features": 277,
+            "wall_time": 0.5064695689999894
+        },
+        {
+            "image": "IMG_0187_2.tif",
+            "num_features": 297,
+            "wall_time": 0.5747231330000204
+        },
+        {
+            "image": "IMG_0188_2.tif",
+            "num_features": 296,
+            "wall_time": 0.6604765539999562
+        },
+        {
+            "image": "IMG_0189_2.tif",
+            "num_features": 323,
+            "wall_time": 0.6098822910000194
+        },
+        {
+            "image": "IMG_0190_2.tif",
+            "num_features": 357,
+            "wall_time": 0.697729317999972
+        },
+        {
+            "image": "IMG_0198_2.tif",
+            "num_features": 343,
+            "wall_time": 0.7022489419999829
+        },
+        {
+            "image": "IMG_0199_2.tif",
+            "num_features": 310,
+            "wall_time": 0.5911871850000239
+        },
+        {
+            "image": "IMG_0200_2.tif",
+            "num_features": 264,
+            "wall_time": 0.5330821880000371
+        },
+        {
+            "image": "IMG_0201_2.tif",
+            "num_features": 254,
+            "wall_time": 0.5155194660000006
+        },
+        {
+            "image": "IMG_0202_2.tif",
+            "num_features": 242,
+            "wall_time": 0.5376274220000141
+        },
+        {
+            "image": "IMG_0203_2.tif",
+            "num_features": 236,
+            "wall_time": 0.6219439579999744
+        },
+        {
+            "image": "IMG_0204_2.tif",
+            "num_features": 249,
+            "wall_time": 0.548277913999982
+        },
+        {
+            "image": "IMG_0205_2.tif",
+            "num_features": 241,
+            "wall_time": 0.4739880589999643
+        },
+        {
+            "image": "IMG_0206_2.tif",
+            "num_features": 258,
+            "wall_time": 0.5389820789999931
+        },
+        {
+            "image": "IMG_0207_2.tif",
+            "num_features": 252,
+            "wall_time": 0.388663882000003
+        },
+        {
+            "image": "IMG_0208_2.tif",
+            "num_features": 278,
+            "wall_time": 0.9884111360000247
+        },
+        {
+            "image": "IMG_0273_2.tif",
+            "num_features": 360,
+            "wall_time": 0.7154425680000145
+        },
+        {
+            "image": "IMG_0274_2.tif",
+            "num_features": 324,
+            "wall_time": 0.6919214460000376
+        },
+        {
+            "image": "IMG_0275_2.tif",
+            "num_features": 293,
+            "wall_time": 0.6730321640000057
+        },
+        {
+            "image": "IMG_0276_2.tif",
+            "num_features": 279,
+            "wall_time": 0.6896295410000448
+        },
+        {
+            "image": "IMG_0277_2.tif",
+            "num_features": 285,
+            "wall_time": 0.6486186949999819
+        },
+        {
+            "image": "IMG_0278_2.tif",
+            "num_features": 302,
+            "wall_time": 0.5870146780000027
+        },
+        {
+            "image": "IMG_0279_2.tif",
+            "num_features": 297,
+            "wall_time": 0.5749555109999847
+        },
+        {
+            "image": "IMG_0280_2.tif",
+            "num_features": 284,
+            "wall_time": 0.5666025930000274
+        },
+        {
+            "image": "IMG_0281_2.tif",
+            "num_features": 307,
+            "wall_time": 0.631286810000006
+        },
+        {
+            "image": "IMG_0282_2.tif",
+            "num_features": 350,
+            "wall_time": 0.6697643869999865
+        },
+        {
+            "image": "IMG_0291_2.tif",
+            "num_features": 375,
+            "wall_time": 0.6198406490000252
+        },
+        {
+            "image": "IMG_0292_2.tif",
+            "num_features": 409,
+            "wall_time": 0.7134631250000325
+        },
+        {
+            "image": "IMG_0293_2.tif",
+            "num_features": 390,
+            "wall_time": 0.677623337
+        },
+        {
+            "image": "IMG_0294_2.tif",
+            "num_features": 430,
+            "wall_time": 0.791512847999968
+        },
+        {
+            "image": "IMG_0295_2.tif",
+            "num_features": 407,
+            "wall_time": 0.766221717999997
+        },
+        {
+            "image": "IMG_0296_2.tif",
+            "num_features": 430,
+            "wall_time": 0.7962472439999715
+        },
+        {
+            "image": "IMG_0297_2.tif",
+            "num_features": 431,
+            "wall_time": 0.7774210950000224
+        },
+        {
+            "image": "IMG_0298_2.tif",
+            "num_features": 418,
+            "wall_time": 0.7662402240000006
+        },
+        {
+            "image": "IMG_0299_2.tif",
+            "num_features": 452,
+            "wall_time": 0.7576138149999565
+        },
+        {
+            "image": "IMG_0300_2.tif",
+            "num_features": 423,
+            "wall_time": 0.7508952489999956
+        }
+    ]
+}
